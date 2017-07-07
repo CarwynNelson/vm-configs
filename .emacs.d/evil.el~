@@ -1,0 +1,11 @@
+;; Use evil mode
+(require 'evil)
+(evil-mode t)
+
+;; Enable vim-like tabs using evil-tabs
+(global-evil-tabs-mode t)
+
+;; Use relative line numbers
+(require 'linum-relative)
+(linum-on)
+(linum-relative-on)

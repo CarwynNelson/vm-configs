@@ -1,0 +1,6 @@
+;; Turn on php-mode
+(eval-after-load 'php-mode
+  '(require 'php-ext))
+
+;; Default config for auto complete
+(ac-config-default)
